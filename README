@@ -19,9 +19,5 @@ Una API REST para gestionar un blog. Utiliza Node.js, MongoDB y Docker.
 
 
 
-Tu API estará disponible en http://localhost:5000.
-Mongo Express estará disponible en http://localhost:8081. Usa las credenciales:
 
-
-comando para levantar los contenedores:
-docker-compose up -d --build
+Mongo Express estará disponible en http://localhost:8081
