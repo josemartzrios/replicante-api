@@ -28,7 +28,8 @@ services:
       dockerfile: Dockerfile
     container_name: replicante-api
     restart: always
-    ports: ${API_PORT}
+    ports: 
+      - ${API_PORT}
     environment:
       MONGO_URI: ${MONGO_URI}
     depends_on:

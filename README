@@ -5,6 +5,7 @@ Una API REST para gestionar un blog. Utiliza Node.js, MongoDB y Docker.
 ## Comenzando
 1. Clona este repositorio `git clone url`
 2. Asegurate de tener Docker instalado en tu equipo
+3. Ejecuta docker desktop en tu equipo
 3. Construye la imagen del proyecto ejecutando el dockerfile `docker build -t blog-api .` 
 4. Levanta los contenedores con Docker compose `docker-compose -f docker-compose.dev.yaml up -d`
 5. Configura tu entorno en un archivo `.env` 
